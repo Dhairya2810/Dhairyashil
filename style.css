@@ -1,0 +1,244 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: gainsboro;
+}
+
+.logo{
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bolder;
+    font-size: 45px;
+    color:#000000;
+    /* filter: drop-shadow(0px 0px 2px rgb(0, 174, 248)); */
+    padding-top: 8px;
+    padding-left: 7px;
+    background-color: transparent;
+    word-spacing: 5px;
+    /* letter-spacing: 5px; */
+}
+
+header{
+    /* display: flex; */
+    justify-content: space-around;
+    align-items: center;
+    
+}
+
+header hr{
+    margin-top: 1px;
+}
+/* Style the navigation bar container */
+nav {
+    display: flex; 
+    justify-content: space-between;
+    padding: 1rem 2rem; 
+    background: #ffffff00; 
+    
+}
+  
+nav ul {
+    display: flex; 
+    list-style: none; 
+    background-color: transparent;
+}
+  
+nav li {
+    padding-left: 1rem;
+    padding-top: 1.5rem; 
+    background-color: transparent;
+}
+
+nav ul li a {
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+    background-color: transparent;
+}
+
+nav ul li a:hover {
+    color: rgb(0, 165, 254);
+}
+
+.profile-pic{
+    border-radius: 100%;
+    width: 10cm;
+    height: 10cm;
+    display: flex;
+    position: relative;
+    margin-left: 5cm;
+    margin-top: 3cm;
+    filter: drop-shadow(0px 0px 5px #000000);
+}
+
+.info h2{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 3em;
+    line-height: 1.8;
+    color: rgb(0, 0, 0);
+    margin-left: 16cm;
+    margin-right: 4cm;
+    margin-top: -9cm;
+    text-align: center;
+}
+
+
+
+.info p{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+    line-height: 1.8;
+    color: rgb(100, 98, 98);
+    margin-left: 16cm;
+    margin-right: 5cm;
+    margin-top: 0.5cm;
+    text-align: center;
+}
+
+hr{
+    margin-left: 1%;
+    margin-right: 1%;
+    margin-top: 5cm;
+}
+
+
+/* footer */
+.footer{
+    bottom: 0;
+    /* background-color: aqua; */
+    height: 150px;
+    /* border: 1px solid black; */
+}
+.footer a{
+    text-decoration: none;
+    color: #050505;
+    
+     
+}
+.contact{
+    margin-left: 100px;
+    margin-top:1cm ;
+    margin-bottom: 10px;
+    font-weight: bolder;
+    font-size: 30px;  
+}
+
+.phone{
+    margin-left: 100px;
+    border-spacing: 20px;
+    font-size: 20px;
+}
+
+.email{
+    margin-left: 500px;
+    margin-top:-1.8cm ;
+    margin-bottom: 10px;
+    font-weight: bolder;
+    font-size: 30px; 
+    display: flex;
+}
+
+.m-email{
+    margin-left: 400px;
+    border-spacing: 20px;
+    font-size: 20px;
+}
+
+.social-icon{
+    display: flex;
+    justify-content: center;
+    margin-left: 300px;
+    margin-top:-0.3cm ;
+}
+
+.follow {
+    font-weight: bolder;
+    font-size: 30px;
+    display: flex;
+    margin-left: 840px;
+    margin-top:-1.9cm ;
+}
+
+.social-icon a{
+    text-decoration: none;
+    padding: 10px;
+    background-color: #ffffff00;
+    margin: 10px;
+    border-radius: 50%;
+}
+
+.social-icon a i{
+    font-size: 1.5em;
+    color: black;
+    opacity: 0.9;
+    
+}
+
+
+.footer-links {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+  }
+
+  .footer-links a {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+  }
+
+  .footer-copyright {
+    margin-left: 1200px;
+    margin-right: 100px;
+    margin-top:-2cm ;
+    font-size: 20px;
+    cursor: pointer;
+  }
+
+
+
+
+  /* for resume */
+
+  .resume {
+    max-width: 800px;
+    margin: 100px auto;
+    padding: 30px;
+    border: 1px solid #ffffff;
+    box-shadow: 0 0 50px rgba(0, 0, 0, 0.1);
+}
+
+.resume .name {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.resume .info {
+    margin-bottom: 20px;
+}
+
+.resume .info span {
+    margin-right: 10px;
+}
+
+.resume .section-header {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.resume .section ul {
+    list-style: none;
+    padding: 0;
+}
+
+.resume .section ul li {
+    margin-bottom: 10px;
+}
+
+.resume .section ul li span {
+    display: inline-block;
+    width: 80px;
+}

@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dhairyashil</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <Header>
+        <nav>
+            <span class="logo">Dhairyashil Patil</span>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="resume.html">Resume</a></li>
+                <li><a href="projects">Projects</a></li>
+            </ul>
+        </nav>
+        <hr>
+    </Header>
+ 
+    <main>
+        <img src="/Images/Profile photo.jpg" alt="Dhairyashil Patil" class="profile-pic">
+        <div class="info">
+            <h2>Hello....!!</h2>
+            <p>Myself Dhairyashil Dhanaji Patil. As a Web developer and UI/UX designer, I bring a unique blend of HTML , CSS  & Graphics Designing. My passion for Web developer and UI/UX designer is not just a career choice; it's a driving force that fuels my commitment to excellence.</p>
+        </div>
+    </main>
+<hr>
+   <div class="footer">
+        <p class="contact"><a href="tel:+919284481128">Phone no.</a></p>
+        <span class="phone"><a href="tel:+919284481128">+91-9284481128</a></span>
+
+        <p class="email"><a href="mailto:dhairyashilpatil8623@gmail.com">Email</a></p>
+        <span class="m-email"><a href="mailto:dhairyashilpatil8623@gmail.com">dhairyashilpatil8623@gmail.com</a></span>
+
+        <p class="follow">Follow me.</p>
+        <div class="social-icon">
+            <a href=""><i class = "fa-brands fa-facebook"></i></a>
+            <a href=""><i class = "fa-brands fa-twitter"></i></a>
+            <a href=""><i class = "fa-brands fa-instagram"></i></a>
+            <a href=""><i class = "fa-brands fa-linkedin"></i></a>
+        </div>
+
+        <div class="footer-copyright" onclick="showCopyrightDetails()">
+            &copy; <span id="currentYear"></span> Your Company. All rights reserved.
+        </div>
+   </div>
+
+   <script>
+    // Update the current year dynamically
+    document.getElementById("currentYear").textContent = new Date().getFullYear();
+
+    // Function to show copyright details (you can replace this with a link to your terms of service or privacy policy page)
+    function showCopyrightDetails() {
+      alert("Terms of Service and Privacy Policy details can be found on our website.");
+    }
+  </script>
+
+</body>
+</html>
